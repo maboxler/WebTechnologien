@@ -1,0 +1,67 @@
+New log file opened at Wed Nov 04 13:28:15 CET 2015 by 5704@3dlab1
+Taking next connection to: 50440
+New client attempting to connect on port: 50441-50440
+  Address = /141.37.31.51:50440
+This client on port 50441 has uuid dcfd78ef-1f71-4c8b-a228-ec091101b68c configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-dcfd78ef-1f71-4c8b-a228-ec091101b68c
+Taking next connection to: 50440
+New client attempting to connect on port: 50442-50440
+  Address = /141.37.31.51:50440
+Handshake exception on socket: 50442
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 50440
+New client attempting to connect on port: 50443-50440
+  Address = /141.37.31.51:50440
+This client on port 50443 has uuid 8d6c8a02-913c-460a-906d-8ddba48728cb configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-dcfd78ef-1f71-4c8b-a228-ec091101b68c, activator-8d6c8a02-913c-460a-906d-8ddba48728cb
+Taking next connection to: 50440
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50440
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50440
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50440
+New client attempting to connect on port: 50537-50440
+  Address = /141.37.31.51:50440
+Handshake exception on socket: 50537
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 50440
+New client attempting to connect on port: 50538-50440
+  Address = /141.37.31.51:50440
+This client on port 50538 has uuid 82008040-6d25-49f4-853d-236e2fafc060 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-dcfd78ef-1f71-4c8b-a228-ec091101b68c, play-fork-run-82008040-6d25-49f4-853d-236e2fafc060
+Taking next connection to: 50440
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50440
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50440
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50440
